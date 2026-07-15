@@ -29,6 +29,18 @@ npm run dev
 npm run build
 ```
 
+## 自动部署（GitHub Pages）
+
+推送到 `main` 后，GitHub Actions 会自动构建并部署到 GitHub Pages。
+
+首次启用：
+
+1. 仓库 **Settings → Pages**
+2. **Source** 选择 **GitHub Actions**
+3. 推送代码到 `main`，或手动在 Actions 里运行 **Deploy to GitHub Pages**
+
+部署完成后访问：`https://dinert.github.io/image-editor/`
+
 ## 项目结构
 
 ```
